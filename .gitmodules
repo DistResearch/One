@@ -1,3 +1,6 @@
 [submodule "deps/csredis"]
 	path = deps/csredis
 	url = https://github.com/HashPool/csredis.git
+[submodule "csredis"]
+	path = csredis
+	url = https://github.com/HashPool/csredis.git
