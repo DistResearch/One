@@ -1,0 +1,5 @@
+/home/pool/CoiniumServ/src/libCoiniumServ/obj/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/home/pool/CoiniumServ/src/libCoiniumServ/bin/Debug/libCoiniumServ.dll.mdb
+/home/pool/CoiniumServ/src/libCoiniumServ/bin/Debug/libCoiniumServ.dll
+/home/pool/CoiniumServ/src/libCoiniumServ/obj/Debug/libCoiniumServ.dll
+/home/pool/CoiniumServ/src/libCoiniumServ/obj/Debug/libCoiniumServ.dll.mdb
