@@ -1,11 +1,11 @@
 {
-    "name": "Darkcoin",
-    "symbol": "DRK",
+    "name": "Dashcoin",
+    "symbol": "DASH",
     "algorithm": "x11",
-    "site": "https://www.darkcoin.io/",
+    "site": "https://www.dash.org/",
     "blockExplorer": {
-        "block": "http://explorer.darkcoin.io/block/",
-        "tx": "http://explorer.darkcoin.io/tx/",
-        "address": "http://explorer.darkcoin.io/address/"
+        "block": "https://explorer.dashninja.pl/block/",
+        "tx": "https://explorer.dashninja.pl/tx/",
+        "address": "https://explorer.dashninja.pl/address/"
     }
 }

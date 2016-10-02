@@ -1,0 +1,34 @@
+{
+    "name": "Vericoin",
+    "symbol": "VRM",
+    "algorithm": "scrypt-n",
+    "site": "http://www.vericoin.info/",
+    "blockExplorer": {
+        "block": "https://chainz.cryptoid.info/vrc/",
+        "tx": "https://chainz.cryptoid.info/vrc/",
+        "address": "https://chainz.cryptoid.info/vrc/"
+    },
+    "node": {
+        "magic": "70352205",
+        "testnetMagic": "cdf2c0ef"
+    },
+    "extra": {
+        "timeTable": {
+            "2048": 1389306217,
+            "4096": 1456415081,
+            "8192": 1506746729,
+            "16384": 1557078377,
+            "32768": 1657741673,
+            "65536": 1859068265,
+            "131072": 2060394857,
+            "262144": 2463048041,
+            "524288": 2999918953,
+            "1048576": 3536789865,
+            "2097152": 5684273513,
+            "4194304": 7831757161,
+            "8388608": 9979240809,
+            "16777216": 16421691753,
+            "33554432 ": 22864142697
+        }
+    }
+}

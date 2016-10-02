@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "coin": "darkcoin.json",
+    "daemon": {
+        "port": 9998,
+        "username": "dashrpc",
+        "password": "2Z9MAhm2sk3A8mBJ8AnSuQpVkgjxE3qgWWsHefbnkpy3"
+    },
+    "wallet": {
+        "address": "XgKstZyB6tNVgszrc21YGCF5onc7asgo2T"
+    },
+    "rewards": [
+        {
+            "XgKstZyB6tNVgszrc21YGCF5onc7asgo2T": 0
+        }
+    ],
+    "stratum": {
+        "port": 3332
+    },
+    "storage": {
+        "hybrid": {
+            "mysql": {
+                "database": "hashpool_one"
+            }
+        }
+    }
+}

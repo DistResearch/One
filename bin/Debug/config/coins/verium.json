@@ -1,0 +1,15 @@
+{
+    "name": "Verium",
+    "symbol": "VRM",
+    "algorithm": "scrypt-n",
+    "site": "http://www.veriumreserve.com/",
+    "blockExplorer": {
+        "block": "https://chainz.cryptoid.info/vrm/block.dws?",
+        "tx": "https://chainz.cryptoid.info/vrm/tx.dws?",
+        "address": "https://chainz.cryptoid.info/vrm/address.dws?"
+    },
+    "node": {
+        "magic": "70352205",
+        "testnetMagic": "cdf2c0ef"
+    }
+}

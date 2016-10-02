@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "coin": "verium.json",
+    "daemon": {
+        "port": 33987,
+        "username": "veriumrpc",
+        "password": "2Z9MAhm2sk3A8mBJ8AnSuQpVkgjxE3qgWWsHefbnkpy3"
+    },
+    "wallet": {
+        "address": "XgKstZyB6tNVgszrc21YGCF5onc7asgo2T"
+    },
+    "rewards": [
+        {
+            "VUVgeLFGqdFqqaUksz8bpoEQQZQSJMWVtX": 1
+        }
+    ],
+    "stratum": {
+        "port": 3336
+    },
+    "storage": {
+        "hybrid": {
+            "mysql": {
+                "database": "hashpool_one"
+            }
+        }
+    }
+}
