@@ -1,5 +1,5 @@
 {
-    "enabled": true,
+    "enabled": false,
     "coin": "verium.json",
     "daemon": {
         "port": 33987,

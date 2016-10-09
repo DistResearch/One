@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "coin": "outastracoin.json",
+    "daemon": {
+        "port": 43318,
+        "username": "outastracoinrpc",
+        "password": "EtXm2U2RacPsVGBZgpxc1uwaYvmtVQcsy6d5kvMyHomX"
+    },
+    "wallet": {
+        "address": "mitPf85hm4UnD6wR1wuFVGzbhXXG6mvoxc"
+    },
+    "rewards": [
+        {
+            "mkPDkT6ayWYGAD3eLqnsyEuTVVQfwrhKi7": 100
+        }
+    ],
+    "stratum": {
+        "port": 3332
+    },
+    "storage": {
+        "hybrid": {
+            "mysql": {
+                "database": "hashpool_one"
+            }
+        }
+    }
+}

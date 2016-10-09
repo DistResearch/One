@@ -1,5 +1,5 @@
 {
-    "enabled": true,
+    "enabled": false,
     "coin": "darkcoin.json",
     "daemon": {
         "port": 9998,

@@ -1,7 +1,7 @@
 {
     "daemon": {
         "host": "127.0.0.1",
-        "timeout": 15
+        "timeout": 600
     },
     "meta": {
         "motd": "Welcome to HashPool.One, enjoy your stay! - https://www.bitaltearning.com",
@@ -9,27 +9,27 @@
     },
     "payments": {
         "enabled": true,
-        "interval": 120,
-        "minimum": 0.0001
+        "interval": 30,
+        "minimum": 100.0
     },
     "miner": {
         "validateUsername": true,
         "timeout": 600
     },
     "job": {
-        "blockRefreshInterval": 3600,
-        "rebroadcastTimeout": 55
+        "blockRefreshInterval": 300,
+        "rebroadcastTimeout": 550
     },
     "stratum": {
         "enabled": true,
-        "bind": "mine.hashpool.one",
-        "diff": 0.16,
+        "bind": "192.169.148.131",
+        "diff": 0.024414,
         "vardiff": {
             "enabled": true,
-            "minDiff": 0.01,
-            "maxDiff": 1.28,
-            "targetTime": 60,
-            "retargetTime": 14400,
+            "minDiff": 0.00024414,
+            "maxDiff": 512,
+            "targetTime": 300,
+            "retargetTime": 86400,
             "variancePercent": 55
         }
     },
