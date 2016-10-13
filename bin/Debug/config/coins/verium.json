@@ -4,12 +4,25 @@
     "algorithm": "scrypt-n",
     "site": "http://www.veriumreserve.com/",
     "blockExplorer": {
-        "block": "https://chainz.cryptoid.info/vrm/block.dws?",
-        "tx": "https://chainz.cryptoid.info/vrm/tx.dws?",
-        "address": "https://chainz.cryptoid.info/vrm/address.dws?"
+        "block": "https://chainz.cryptoid.info/vrm/",
+        "tx": "https://chainz.cryptoid.info/vrm/",
+        "address": "https://chainz.cryptoid.info/vrm/"
     },
     "node": {
         "magic": "70352205",
         "testnetMagic": "cdf2c0ef"
+    },
+    "extra": {
+        "timeTable": {
+            "2048": 1389306217,
+            "4096": 1456415081,
+            "8192": 1506746729,
+            "16384": 1557078377,
+            "32768": 1657741673,
+            "65536": 1859068265,
+            "131072": 2060394857,
+            "262144": 1722307603,
+            "524288": 1769642992
+        }
     }
 }
