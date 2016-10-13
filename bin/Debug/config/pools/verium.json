@@ -1,5 +1,5 @@
 {
-    "enabled": false,
+    "enabled": true,
     "coin": "verium.json",
     "daemon": {
         "port": 33987,
@@ -7,7 +7,7 @@
         "password": "2Z9MAhm2sk3A8mBJ8AnSuQpVkgjxE3qgWWsHefbnkpy3"
     },
     "wallet": {
-        "address": "XgKstZyB6tNVgszrc21YGCF5onc7asgo2T"
+        "address": "VQFbP6oEXXQZ4bhADqRnYYFXtg7QYvLNf3"
     },
     "rewards": [
         {
@@ -20,7 +20,7 @@
     "storage": {
         "hybrid": {
             "mysql": {
-                "database": "hashpool_one"
+                "database": "hashpool_one_vrc"
             }
         }
     }
