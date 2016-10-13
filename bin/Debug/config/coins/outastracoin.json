@@ -2,14 +2,14 @@
     "name": "Outastracoin",
     "symbol": "OAC",
     "algorithm": "scrypt",
-    "site": "https://www.outastra.com/",
+    "site": "http://www.outastra.com/coin",
     "blockExplorer": {
-        "block": "http://block-explorer.com/block/",
-        "tx": "http://block-explorer.com/tx/",
-        "address": "http://block-explorer.com/address/"
+        "block": "http://oac.explorer.hashpool.one/block/",
+        "tx": "http://oac.explorer.hashpool.one/tx/",
+        "address": "http://oac.explorer.hashpool.one/address/"
     },
     "node": {
-        "magic": "fbc0b6db",
-        "testnetMagic": "fcc1b7dc"
+        "magic": "70352205",
+        "testnetMagic": "cdf2c0ef"
     }
 }

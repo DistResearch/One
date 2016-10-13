@@ -7,11 +7,11 @@
         "password": "EtXm2U2RacPsVGBZgpxc1uwaYvmtVQcsy6d5kvMyHomX"
     },
     "wallet": {
-        "address": "mitPf85hm4UnD6wR1wuFVGzbhXXG6mvoxc"
+        "address": "n2YofPAwHCPsmxiQN73oioHHAojRWQNEJR"
     },
     "rewards": [
         {
-            "mkPDkT6ayWYGAD3eLqnsyEuTVVQfwrhKi7": 100
+            "n2YofPAwHCPsmxiQN73oioHHAojRWQNEJR": 0.0
         }
     ],
     "stratum": {
