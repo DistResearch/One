@@ -15,7 +15,18 @@
         }
     ],
     "stratum": {
-        "port": 3332
+        "enabled": true,
+        "bind": "192.169.148.131",
+        "port": 3332,
+        "diff": 1024.00000763,
+        "vardiff": {
+            "enabled": true,
+            "minDiff": 0.00000763,
+            "maxDiff": 8192.00000000,
+            "targetTime": 650,
+            "retargetTime": 86400,
+            "variancePercent": 55
+        }
     },
     "storage": {
         "hybrid": {
