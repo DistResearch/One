@@ -11,11 +11,22 @@
     },
     "rewards": [
         {
-            "VUVgeLFGqdFqqaUksz8bpoEQQZQSJMWVtX": 1
+            "VUVgeLFGqdFqqaUksz8bpoEQQZQSJMWVtX": 1.5
         }
     ],
     "stratum": {
-        "port": 3336
+        "enabled": true,
+        "bind": "192.169.148.131",
+        "port": 3336,
+        "diff": 0.05000000,
+        "vardiff": {
+            "enabled": true,
+            "minDiff": 0.0007,
+            "maxDiff": 16.00000000,
+            "targetTime": 300,
+            "retargetTime": 60,
+            "variancePercent": 3
+        }
     },
     "storage": {
         "hybrid": {
