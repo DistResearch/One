@@ -58,15 +58,21 @@ namespace CoiniumServ.Algorithms.Implementations
             {131072, 2060394857},
             {262144, 1722307603},
             {524288, 1769642992},
+			{1048576, 3536789865},
+            {2097152, 5684273513},
+            {4194304, 7831757161},
+            {8388608, 9979240809},
+            {16777216, 16421691753},
+            {33554432 , 22864142697},
         };
 
         private Dictionary<Int32, UInt64> _timeTable; // timeTable for the coin.
 
         public ScryptN(ICoinConfig coinConfig)
         {
-            _r = 1;
-            _p = 1;
-            Multiplier = (UInt32)Math.Pow(2, 16);
+            _r = 8;
+            _p = 4;
+            Multiplier = (UInt32)Math.Pow(2, 20);
 
             InitTimeTable(coinConfig.Extra.timeTable); // init the timeTable for the coin.
         }
@@ -92,7 +98,7 @@ namespace CoiniumServ.Algorithms.Implementations
             var now = (UInt64)TimeHelpers.NowInUnixTimestamp();
 
             var index = _timeTable.OrderBy(x => x.Key).First(x => x.Value < now).Key;
-            var nFactor = (int)(Math.Log(index) / Math.Log(2));
+            var nFactor = 19;
             var n = 1 << nFactor;
 
             return SCrypt.ComputeDerivedKey(input, input, n, _r, _p, null, 32);
